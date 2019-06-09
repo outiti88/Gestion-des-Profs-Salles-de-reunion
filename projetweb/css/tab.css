@@ -1,0 +1,68 @@
+* {
+  font-family: sans-serif; 
+    
+}
+
+
+
+
+    .profil {
+  border-collapse: collapse;
+  margin: 40px;
+  font-size: 1em;
+  width: 90%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  position: absolute;}
+ 
+  
+
+
+.profil thead tr {
+  background-color: #4caf50;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.profil th,
+.profil td {
+  padding: 12px 15px;
+}
+
+.profil tbody tr {
+  border-bottom: 1px solid #dddddd;
+    font-weight: bold;
+  color: #efefef;
+  background-color: #2b2b2b73;
+}
+
+
+.botona {
+    width: 100%;
+    background: none;
+    color: #4caf50;
+    padding: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 12px 0;
+
+}
+
+
+.supprimer:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.modifier:hover {
+    cursor: pointer;
+    color: green;
+}
+
+.ajouter a{
+  
+  text-align: center;
+  font-size: 2em;
+}
